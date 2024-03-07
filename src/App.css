@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  max-width: 1128px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #022A1E;
+  transition: all 0.5s;
+}
+
+.menu a:hover {
+  color: gray;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #022A1E;
+  transition: all 0.5s;
+}
+
+.login a:hover {
+  color: rgb(0, 179, 255);
+}
+
+.login button {
+  padding: 13px 17px;
+  border-radius: 15px;
+  border: 1px solid #022A1E;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.login button:hover {
+  border: 1px solid #ffffff;
+  background-color: #022A1E;
+  color: #ffffff;
+}
+
+.hero {
+  max-width: 1128px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #022A1E;
+  border-radius: 20px;
+  padding: 120px 64px;
+}
+
+.left h2{
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 11px;
+}
+
+.left p{
+  color: #ffffff;
+  margin-bottom: 22px;
+  width: 455px;
+}
+
+.reklama {
+  max-width: 1128px;
+  margin: 74px auto;
+  text-align: center;
+}
+
+.main {
+  max-width: 1128px;
+  margin: 68px auto;
+  text-align: center;
+  background-color: #F2F7F7;
+  border-radius: 20px;
+  padding: 68px 60px;
+}
+
+.main h1 {
+  width: 757px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.block {
+  width: 315px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 201px 27px 49px 27px;
+}
+
+.block h4 {
+  margin-bottom: 11px;
+}
